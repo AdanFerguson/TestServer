@@ -1,0 +1,13 @@
+
+#game {
+    margin: auto;
+    border: 1px solid black;
+    cursor: none;
+}
+
+body{
+    background-color: black;
+}
+div {
+    background-color: white;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title><%= title %></title>
+        <%- include common %>
+        
+<%- stylesheetLinkTag(
+    'gunorama/style') 
+%>
+<%- javascriptIncludeTag(
+    
+    'https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js',
+    
+    'gunorama/main',
+    'gunorama/components/cursor',
+    'gunorama/components/player') 
+%>
+
+        
+    </head>
+    <body>
+        <%- body %>
+    </body>
+</html>
